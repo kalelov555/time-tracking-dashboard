@@ -1,13 +1,12 @@
 # Time tracking dashboard
 
-    This project shows 3 types of records(Daily, Weekly, Monthly) 
-of some activities. 
+    This project shows 3 types of records(Daily, Weekly, Monthly) of some activities. 
 
 ## Programming tools
 
--React(useState, hooks)
--HTML5, CSS
--Bootstrap
+-React(useState, hooks)  
+-HTML5, CSS  
+-Bootstrap  
 
 ### References
 
