@@ -1,0 +1,308 @@
+body {
+    padding: 10%;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+}
+
+.container {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.details-container {
+    background-color: hsl(246, 80%, 60%);
+    border-radius: 20px;
+    padding: 10% 10% 20%;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.profile-avatar {
+    width: 80px;
+    border: 3px white solid;
+    border-radius: 100%;
+}
+
+.report-for {
+    margin-top: 20px;
+}
+
+.progile-name {
+    font-weight: 100;
+}
+
+.profile-container {
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 20px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 20px;
+    color: hsl(236, 100%, 87%);
+    width: 25%;
+}
+
+.mode {
+    padding-left: 10%;
+    cursor: pointer;
+}
+
+.mode:hover {
+    color: #fff;
+}
+
+.mode::first-letter {
+    text-transform: capitalize;
+}
+
+.stats-container {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+    padding: auto;
+    width: 75%;
+}
+
+.one-part-outer-container {
+    color: #fff;
+    height: 50%;
+    margin: 0;
+    position: relative;
+}
+
+.one-part-container {
+    position: absolute;
+    width: 90%;
+    height: 95%;
+    border-radius: 20px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 0;
+}
+
+.one-part-details {
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 20px;
+    padding: 20px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.one-part-details:hover {
+    background-color: hsl(235, 45%, 61%)
+}
+
+.stat-part-top {
+    display: flex;
+    flex-direction: row;
+}
+
+.dots {
+    text-align: right;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.previous-hours {
+    color: hsl(236, 100%, 87%);
+}
+
+@media (max-width: 912px) {
+    body {
+        padding: 20%;
+    }
+    .profile-container {
+        padding: 0;
+        margin: 0;
+        width: auto;
+        padding-bottom: 10px;
+    }
+
+    .container {
+        display: flex;
+        flex-shrink: initial;
+        flex-direction: column;
+    }
+
+    .details-container {
+        display: flex;
+        padding: 20px;
+        color: #fff;
+        margin-bottom: 20px;
+    }
+
+    .profile-avatar {
+        width: 140px;
+        border: 3px white solid;
+        border-radius: 100%;
+    }
+
+    .mode-names {
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .profile-name-details-text {
+        padding-left: 20px;
+    }
+
+    .mode {
+        padding-left: 10%;
+        cursor: pointer;
+        width: 33.3%;
+    }
+
+    .stats-container {
+        flex-direction: column;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: auto;
+        padding: 0;
+        margin: 0;
+    }
+
+    .one-part-outer-container {
+        color: #fff;
+        height: 250px;
+        margin: 0;
+        width: 50%;
+    }
+
+    .one-part-container {
+        position: absolute;
+        width: 90%;
+        height: 95%;
+        border-radius: 20px;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        bottom: 0;
+    }
+
+    .one-part-details {
+        background-color: hsl(235, 46%, 20%);
+        border-radius: 20px;
+        padding: 20px;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+    }
+
+
+
+}
+
+
+@media (max-width: 610px) {
+    body {
+        padding: 10%;
+    }
+
+    .details-container {
+        padding: 25px;
+    }
+
+    .profile-avatar {
+        width: 120px;
+        border: 5px white solid;
+    }
+
+    .one-part-outer-container {
+        width: 100%;
+        height: 200px;
+    }
+
+    .one-part-details {
+        background-color: hsl(235, 46%, 20%);
+        border-radius: 20px;
+        padding: 20px;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+    }
+
+    .one-part-details:hover {
+        background-color: hsl(235, 45%, 61%)
+    }
+
+    .stat-part-top {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .stat-part-bottom {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+
+}
+
+@media (max-width: 420px) {
+    body {
+        padding: 1%;
+    }
+
+    .profile-container {
+        font-size: 15px;
+    }
+
+    .details-container {
+        padding: 15px;
+        font-weight: 300;
+        justify-content: space-between;
+    }
+
+    .profile-avatar {
+        width: 25%;
+        height: auto;
+        border: 5px white solid;
+    }
+
+    .profile-name-details-text {
+        width: 75%;
+    }
+
+    .profile-name {
+        font-weight: 100;
+    }
+
+    .one-part-outer-container {
+        width: 100%;
+        height: 200px;
+    }
+
+    .one-part-details {
+        background-color: hsl(235, 46%, 20%);
+        border-radius: 20px;
+        padding: 20px;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+    }
+
+    .one-part-details:hover {
+        background-color: hsl(235, 45%, 61%)
+    }
+
+    .stat-part-top {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .stat-part-bottom {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+
+}
